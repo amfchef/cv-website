@@ -1,0 +1,4 @@
+- name: "copy files file to correct path"
+      copy:
+        src: ../../website/
+        dest: /var/www/website

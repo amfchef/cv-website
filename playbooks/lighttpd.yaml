@@ -23,4 +23,7 @@
         src: ../site/index.html
         dest: /var/www/html
 
-
+    - name: "copy image"
+      copy:
+        src: "/home/jakob/Desktop/Ansible/Image/jakob"
+        dest: /var/www/html

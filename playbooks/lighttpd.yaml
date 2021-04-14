@@ -25,5 +25,5 @@
 
     - name: "copy image"
       copy:
-        src: "/home/jakob/Desktop/Ansible/Image/jakob"
+        src: "/home/jakob/Desktop/Ansible/Image/jakob.jpeg"
         dest: /var/www/html

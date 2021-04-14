@@ -22,8 +22,3 @@
       copy:
         src: ../site/index.html
         dest: /var/www/html
-
-    - name: "copy image"
-      copy:
-        src: ../Image/jakob
-        dest: /var/www/html

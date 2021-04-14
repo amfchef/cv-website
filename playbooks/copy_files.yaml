@@ -1,7 +1,0 @@
-- hosts: web
-  become: yes
-  tasks:
-  - name: "copy files file to correct path"
-    copy:
-      src: ../website/
-      dest: /var/www/website

@@ -15,13 +15,12 @@
         path: /var/www/html
         state: directory
         mode: '0775'
-        owner: {{ web_user }}
-        group: {{ web_group }}
+        owner: www-data
+        group: www-data
 
     - name: "copy file to correct path"
       copy:
         src: ../site/index.html
         dest: /var/www/html
-
 
 

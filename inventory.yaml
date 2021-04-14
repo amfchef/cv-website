@@ -3,5 +3,5 @@ web:
     139.59.171.250
   vars:
     ansible_user: root
-    #ansible_ssh_private_key_file: ~/.ssh/id_rsa
-    ansible_ssh_private_key_file: /home/jakob/ansible_key/id_rsa
+    ansible_ssh_private_key_file: ~/.ssh/id_rsa
+    #ansible_ssh_private_key_file: /home/jakob/ansible_key/id_rsa

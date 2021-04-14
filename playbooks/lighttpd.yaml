@@ -12,16 +12,19 @@
       
     - name: "create www directory for lighttpd"
       file:
-        path: /var/www/website
+        path: /var/www/html
         state: directory
         mode: '0775'
         owner: "www-data"
         group: "www-data"
 
-    - name: "copy files file to correct path"
+    - name: "copy file to correct path"
       copy:
-        src: ../../website/
-        dest: /var/www/website #This gets the * file from build/ directory and copies it to /var/www/html
+        #src: ../site/
+        src: ../site/index.html
+        #dest: /var/www/default
+        dest: /var/www/html
+        #dest: /var/www/html/index.html
 
 
 
